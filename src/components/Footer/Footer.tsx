@@ -21,9 +21,9 @@ const Footer: React.FC = () => {
         <div className={styles.footerSection}>
           <h3>Connect</h3>
           <div className={styles.socialLinks}>
-            <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://facebook.com/company" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://instagram.com/company" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://linkedin.com/company/company" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>
