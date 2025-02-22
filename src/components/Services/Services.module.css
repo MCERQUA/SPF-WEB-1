@@ -1,0 +1,76 @@
+.services {
+  padding: 4rem 2rem;
+  background-color: var(--bg-primary);
+}
+
+.services h2 {
+  text-align: center;
+  color: var(--text-dark);
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.serviceCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.serviceCard {
+  background-color: var(--bg-secondary);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-5px);
+}
+
+.serviceCard h3 {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.serviceCard p {
+  color: var(--text-color);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.learnMore {
+  display: inline-block;
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.learnMore:hover {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .services h2 {
+    font-size: 1.75rem;
+  }
+
+  .serviceCards {
+    grid-template-columns: 1fr;
+  }
+
+  .serviceCard {
+    padding: 1.5rem;
+  }
+}
